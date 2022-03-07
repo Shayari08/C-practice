@@ -1,0 +1,75 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("Name: Shayari\n");
+    return 0;
+}
+\\
+
+#include<stdio.h>
+#include<math.h>
+int width;          
+int height;         
+
+int main()
+{
+    height=7;
+    width=5;
+    printf("%d\n", 2*(height+width));
+    printf("%d\n", height*width);
+    return 0;
+}
+\\
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int days, years, weeks;
+    days= 1329;
+    years=days/365;
+    weeks=(days%365)/7;
+    printf("Years: %d\n", years);
+    printf("Weeks: %d\n", weeks);
+    printf("Days: %d\n", days);
+    return 0;
+}
+\\
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+   int x, y, sum;
+    printf("\nInput the first integer: "); 
+    scanf("%d", &x);
+    printf("\nInput the second integer: ");
+    scanf("%d", &y);
+    sum = x + y;
+    printf("\nSum of the above two integers = %d\n", sum);
+    return 0;
+}
+\\ Write a C program that accepts two item’s weight (floating points' values ) and number of purchase (floating points' values) and calculate the average value of the items.
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+   double w1,c1,w2,c2, result;
+   printf("weight of item 1: ");
+   scanf("%lf", &w1);
+   printf("No. of items: ");
+   scanf("%lf", &c1);
+   printf("weight of item 2: ");
+   scanf("%lf", &w2);
+   printf("No. of items: ");
+   scanf("%lf", &c2);
+   result=((w1*c1)+(w2*c2))/(c1+c2);
+   printf("Average value= %f\n", result);
+   return 0;
+   
+    return 0;
+}
+
+
